@@ -1,0 +1,98 @@
+<!doctype html>
+	<html lang=es>
+		<head> 
+			<meta name="autor" content="Francisco Alejandro Silva Nava">		
+			<meta charset="utf-8">
+			<link rel="shortcut icon" href="">
+			<link rel="stylesheet" type="text/css" href="estilo.css">
+			<title>Contacto</title>
+
+		</head> 
+
+		<body class="fd">
+
+			<section id="con">
+
+				<img id="imgcon" src="imagenes/contacto.jpg">
+
+				
+
+				<h1 align="center">Contacto</h1>
+
+				<br>
+				<br>
+
+				<form method="post" action="cgi-bin/scrip.pl">
+
+					<table align="center">
+
+						<tr>
+							<th colspan="2"> Envia un Correo </th>
+						</tr>
+
+						<tr>
+							<td><br></td>
+							<td></td>
+						</tr>
+						
+
+						<tr>
+							<td>Nombre:</td>
+							<td><input type="text" name="asunto" /></td>
+							
+						</tr>
+
+						<tr>
+							<td>Mensaje:</td>
+							<td><input type="text" name="mensaje" /></td>
+							
+						</tr>
+
+						<tr>
+							<td>Ocupación:</td>
+							<td>
+								<select  name="asu">
+
+									<option value="asu1">Trabajo</option>
+									<option value="asu2">Estudio</option>
+									<option value="asu3">Otro</option>				
+
+								</select>
+							</td>
+							
+						</tr>
+						<tr>
+							<td>Quieres saver mas:</td>
+							<td>
+								
+								<input type="radio" value="si" name="des1" />
+								<label for="si">Si</label>
+								<input type="radio" value="no" name="des1" />
+								<label for="no">No</label>
+
+							</td>
+							
+						</tr>
+
+						<tr>
+							
+							<td>
+								<button type="button" >Enviar</button>
+								<input type="reset" value="Borrar"></input>
+							</td>
+
+							<td></td>
+
+						</tr>
+	
+					</table>
+												
+				</form>
+
+				
+
+			</section>
+
+		</body> 
+
+    </html>
